@@ -53,6 +53,17 @@ Paste the returned token into the login screen. This account can read most resou
 
 Use port forwarding or a configured ingress rather than `kubectl proxy`. The API-server proxy does not preserve the Authorization header required by the dashboard.
 
+<!-- seorepo:network:start -->
+## More tools from our network
+
+- [**octo-cli**](https://github.com/boostlyapi/octo-cli) — CLI на Go для публикации данных из PostgreSQL, MSSQL и MySQL через бессерверные веб-сервисы в OpenFaaS или Knative. Конфигурация сервиса задаётся в YAML.
+- [**tool**](https://github.com/boostlyapi/tool) — CLI на Go для Apache Kafka: чтение и отправка сообщений в JSON, просмотр топиков, управление смещениями consumer groups и базовое администрирование.
+- [**docker-ikev2-vpn-server**](https://github.com/Cabral-it/docker-ikev2-vpn-server) — Docker-based IKEv2 VPN server with shared-secret authentication and .mobileconfig generation for iOS and macOS, based on gaomd/docker-ikev2-vpn-server.
+- [**akrobateo**](https://github.com/Dyooooou/akrobateo) — A Go Kubernetes operator that exposes LoadBalancer services through node hostPorts using DaemonSets and synchronizes their load balancer addresses.
+- [**node-hnsn**](https://github.com/ghb13/node-hnsn) — A TypeScript node for decentralized document timestamping with Bitcoin and IPFS, with an HTTP API for signed work claims and file uploads.
+- [**wg-access-server**](https://github.com/EngHirsi/wg-access-server) — A WireGuard VPN server with a web UI for user authentication, one-click device registration, QR-code setup, and configurable network isolation.
+<!-- seorepo:network:end -->
+
 ## License
 
 Apache-2.0. This project is based on [skooner-k8s/skooner](https://github.com/skooner-k8s/skooner), which is also licensed under Apache-2.0. Preserve applicable copyright notices, the license, and any upstream NOTICE file when redistributing the code, and mark modified files as required by the license.
